@@ -1,0 +1,35 @@
+{
+    "info": {
+        "title": "User Management API",
+        "summary": "Express Application demonstrating the `express-typescript-deocorators` for managing users",
+        "description": "Fully functional Express Application developed with Typescript focused on `express`, `sequelize-typescript` and `express-typescript-decorators`.  Contains examples of key API components including an Express Router, referred to as a Controller, Sequelize model, a database migration, authentication middleware and `winston` logging.",
+        "contact": {
+            "name": "Paul Forbes",
+            "email": "paulforbes42@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "identifier": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "description": "Bearer Token",
+                "name": "Bearer Authentication",
+                "in": "header",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    },
+    "servers": [
+        {
+            "url": "http://localhost:5000",
+            "description": "Local Development Environment"
+        }
+    ]
+}

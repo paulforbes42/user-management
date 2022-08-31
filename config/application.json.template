@@ -1,0 +1,23 @@
+{
+    "development": {
+        "allowUserRegistration": true,
+        "logLevel": "info",
+        "logFile": "logs/application.log",
+        "logConsole": true,
+        "jwtSecret": "Recommended16Bits-ForDevelopment"
+    },
+    "test": {
+        "allowUserRegistration": true,
+        "logLevel": "info",
+        "logFile": "logs/application.log",
+        "logConsole": true,
+        "jwtSecret": "Recommended16Bits-ForTest"
+    },
+    "production": {
+        "allowUserRegistration": true,
+        "logLevel": "info",
+        "logFile": "logs/application.log",
+        "logConsole": false,
+        "jwtSecret": "Recommended16Bits-ForProduction"
+    }
+}

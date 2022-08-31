@@ -1,0 +1,9 @@
+config/application.json
+config/db.json
+coverage/
+dist/
+docs/
+logs/
+node_modules/
+*.swp
+*.swo
